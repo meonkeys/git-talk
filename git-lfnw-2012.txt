@@ -2,6 +2,11 @@
 % Jesse Keating and Adam Monsen
 % April 22, 2012
 
+<!--
+Conference: LinuxFest Northwest 2012
+Target audience: git power users, admins, programmers
+-->
+
 # Intro
 
 - What we'll cover
@@ -21,7 +26,7 @@
 # Rebase
 
 - I really do use this every fraking day
-- Cool name, but really easy to use
+- Fancy name, but really easy to use
 
 # Bisect
 
