@@ -1,0 +1,30 @@
+% Git Deep
+% Jesse Keating and Adam Monsen
+% April 22, 2012
+
+# Intro
+
+- What we'll cover
+- What we won't cover
+
+# Credits
+
+- Thank you, LFNW, thank you BLUG!
+
+# Complex merges
+
+# Merge vs. Rebase
+
+- When should you merge, when should you rebase?
+- Teach your developers how to write [proper commit log messages](http://mifosforge.jira.com/wiki/display/MIFOS/Commit+Log+Guide).
+
+# Rebase
+
+- I really do use this every fraking day
+- Cool name, but really easy to use
+
+# Bisect
+
+<!--
+vim: ft=pandoc
+-->
