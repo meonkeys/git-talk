@@ -25,8 +25,8 @@ Target audience: git power users, admins, programmers
 
 # Rebase
 
-- I really do use this every fraking day
 - Fancy name, but really easy to use
+- I really do use this every fraking day
 
 # Bisect
 
