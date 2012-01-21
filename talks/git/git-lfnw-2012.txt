@@ -30,6 +30,8 @@ Target audience: git power users, admins, programmers
 
 # Bisect
 
+# Reflog: Your Safety Net
+
 <!--
 vim: ft=pandoc
 -->
