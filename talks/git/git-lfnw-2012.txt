@@ -10,7 +10,16 @@ Target audience: git power users, admins, programmers
 -->
 
 - What we'll cover
+    - good stuff
 - What we won't cover
+    - bad stuff
+
+~~~~~~~ {.c}
+/* code example */
+if (a > 3) {
+    moveShip(5 * gravity, DOWN);
+}
+~~~~~~~
 
 # Credits
 
