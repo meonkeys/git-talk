@@ -2,12 +2,12 @@
 % Jesse Keating and Adam Monsen
 % April 22, 2012
 
+# Intro
+
 <!--
 Conference: LinuxFest Northwest 2012
 Target audience: git power users, admins, programmers
 -->
-
-# Intro
 
 - What we'll cover
 - What we won't cover
