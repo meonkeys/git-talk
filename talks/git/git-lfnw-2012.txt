@@ -41,6 +41,9 @@ if (a > 3) {
 
 # Reflog: Your Safety Net
 
+- http://gitready.com/intermediate/2009/02/09/reflog-your-safety-net.html
+- http://gitready.com/advanced/2009/01/17/restoring-lost-commits.html
+
 <!--
 vim: ft=pandoc
 -->
