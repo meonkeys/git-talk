@@ -29,6 +29,10 @@ if (a > 3) {
 
 - Yes, it can be done
 
+# Case study: Git-backed wiki
+
+- Gollum, Git, scripts, etc.
+
 # Complex merges
 
 # Merge vs. Rebase
