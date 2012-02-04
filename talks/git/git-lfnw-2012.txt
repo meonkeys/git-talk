@@ -25,6 +25,10 @@ if (a > 3) {
 
 - Thank you, LFNW, thank you BLUG!
 
+# Obliterate
+
+- Yes, it can be done
+
 # Complex merges
 
 # Merge vs. Rebase
