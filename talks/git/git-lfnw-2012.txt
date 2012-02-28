@@ -33,6 +33,10 @@ if (a > 3) {
 
 - Gollum, Git, scripts, etc.
 
+# Interactive revert
+
+- <http://stackoverflow.com/a/2383361/156060>
+
 # Complex merges
 
 # Merge vs. Rebase
