@@ -25,6 +25,11 @@ if (a > 3) {
 
 - Thank you, LFNW, thank you BLUG!
 
+# What can't git do?
+
+- effective contraception
+    - actually...
+
 # Obliterate
 
 - Yes, it can be done
