@@ -29,13 +29,16 @@ if (a > 3) {
 
 - Snapshot management
     - each "commit" is a snapshot of the tree instead of patches
+
 - Distributed
     - Everybody gets a complete copy
     - Awesome for offline use
     - Awesome for contributors to collaborate
+
 - Designed around multiple contributors
     - Tools to easily pass changes around
     - Differentiate between author, committer (and pusher, not recorded)
+
 - Git is better than everything
     - http://whygitisbetterthanx.com/
 
