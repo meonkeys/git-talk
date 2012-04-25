@@ -40,7 +40,7 @@ if (a > 3) {
     - Differentiate between author, committer (and pusher, not recorded)
 
 - Git is better than everything
-    - http://whygitisbetterthanx.com/
+    - <http://whygitisbetterthanx.com/>
 
 # What is it used for?
 
@@ -103,8 +103,8 @@ if (a > 3) {
 - git reflog
     - your safety net
     - recover an accidentally-dropped stash
-    - http://gitready.com/intermediate/2009/02/09/reflog-your-safety-net.html
-    - http://gitready.com/advanced/2009/01/17/restoring-lost-commits.html
+    - <http://gitready.com/intermediate/2009/02/09/reflog-your-safety-net.html>
+    - <http://gitready.com/advanced/2009/01/17/restoring-lost-commits.html>
 
 # Getting along with other people (1/2)
 
