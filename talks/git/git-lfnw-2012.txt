@@ -59,7 +59,7 @@ if (a > 3) {
 - effective contraception
     - actually...
 
-# Getting Started
+# Getting Started (1/2)
 
 - git init
 
@@ -72,6 +72,8 @@ if (a > 3) {
     - Teach your developers how to write [proper commit log messages](http://mifosforge.jira.com/wiki/display/MIFOS/Commit+Log+Guide).
 
 - git log
+
+# Getting Started (2/2)
 
 - git show
     - git log -p
@@ -104,7 +106,7 @@ if (a > 3) {
     - http://gitready.com/intermediate/2009/02/09/reflog-your-safety-net.html
     - http://gitready.com/advanced/2009/01/17/restoring-lost-commits.html
 
-# Getting along with other people
+# Getting along with other people (1/2)
 
 - Sharing with bare repo
     - git clone --bare
@@ -122,6 +124,8 @@ if (a > 3) {
     - format-patch
     - git diff
 
+# Getting along with other people (2/2)
+
 - Applying patches
     - git apply
     - git am
@@ -136,7 +140,7 @@ if (a > 3) {
 
 - Conflict resolution
 
-# Getting Clever
+# Getting Clever (1/2)
 
 - git blame
 
@@ -152,6 +156,8 @@ if (a > 3) {
     - rebase to a branch
     - pull --rebase
     - odd name, very useful
+
+# Getting Clever (2/2)
 
 - bisect
     - cut problem in half algorithm (simplified here)
