@@ -52,7 +52,7 @@ Target audience: git beginner to intermediate
 - effective contraception
     - actually...
 
-# Getting Started (1/2)
+# Get Started (1/2)
 
 - git init
 
@@ -66,7 +66,7 @@ Target audience: git beginner to intermediate
 
 - git log
 
-# Getting Started (2/2)
+# Get Started (2/2)
 
 - git show
     - git log -p
@@ -81,7 +81,7 @@ Target audience: git beginner to intermediate
     - lightweight vs annotated
     - with gpg key
 
-# Getting a Safety Net
+# Get a Safety Net
 
 - dry runs
     - not an oxymoron
@@ -98,7 +98,7 @@ Target audience: git beginner to intermediate
     - <http://gitready.com/intermediate/2009/02/09/reflog-your-safety-net.html>
     - <http://gitready.com/advanced/2009/01/17/restoring-lost-commits.html>
 
-# Getting along with other people (1/2)
+# Get along with other people (1/2)
 
 - Sharing with bare repo
     - git clone --bare
@@ -116,7 +116,7 @@ Target audience: git beginner to intermediate
     - format-patch
     - git diff
 
-# Getting along with other people (2/2)
+# Get along with other people (2/2)
 
 - Applying patches
     - git apply
@@ -132,7 +132,7 @@ Target audience: git beginner to intermediate
 
 - Conflict resolution
 
-# Getting Clever (1/2)
+# Get Clever (1/2)
 
 - git blame
 
@@ -149,7 +149,7 @@ Target audience: git beginner to intermediate
     - pull --rebase
     - odd name, very useful and easy
 
-# Getting Clever (2/2)
+# Get Clever (2/2)
 
 - bisect
     - cut problem in half algorithm (simplified here)
@@ -157,7 +157,7 @@ Target audience: git beginner to intermediate
 - Interactive revert
     - <http://stackoverflow.com/a/2383361/156060>
 
-# Getting efficient
+# Get efficient
 
 - git-enhanced shell prompt
 
@@ -200,14 +200,14 @@ push.default=upstream
 </pre>
 </div>
 
-# Getting smart
+# Get smart
 
 - Read [Pro Git](http://progit.org)!
 - Now. Do it now.
 
 <center><a href="http://progit.org"><img src="http://progit.org/images/book-big.jpg" /></a></center>
 
-# Getting agile
+# Get agile
 
 - [gollum](https://github.com/github/gollum) is a git-backed wiki
     - follow install (must use [older redcarpet](http://stackoverflow.com/a/8395471/156060))
