@@ -218,6 +218,10 @@ push.default=upstream
     - run `gollum` from command line
     - hit <http://localhost:4567>
 
+# Further reading
+
+- [a complete workflow recommendation](https://gist.github.com/2015828)
+- [Pro Git](http://progit.org)
 
 
 <!--
