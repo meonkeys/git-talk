@@ -157,6 +157,9 @@ Target audience: git beginner to intermediate
 - Interactive revert
     - <http://stackoverflow.com/a/2383361/156060>
 
+- hand-edited commits
+    - <http://stackoverflow.com/a/2333917/156060>
+
 # Get efficient
 
 - git-enhanced shell prompt
