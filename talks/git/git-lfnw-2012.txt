@@ -159,7 +159,11 @@ Target audience: git beginner to intermediate
 
 # Case study: Git-backed wiki
 
-- Gollum, Git, scripts, etc.
+- [gollum](https://github.com/github/gollum)
+    - follow install (must use [older redcarpet](http://stackoverflow.com/a/8395471/156060))
+    - create new git repo
+    - run `gollum` from command line
+    - hit <http://localhost:4567>
 
 
 
