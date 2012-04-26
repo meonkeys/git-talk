@@ -55,10 +55,33 @@ Target audience: git beginner to intermediate
 # Get Started (1/2)
 
 - git init
+<div class="handout">
+<pre>
+$ mkdir project
+$ cd project
+$ git init .
+</pre>
+</div>
 
 - git status
+<div class="handout">
+<pre>
+$ git status
+# On branch master
+#
+# Initial commit
+#
+nothing to commit (create/copy files and use "git add" to track)
+</pre>
+</div>
 
 - git add
+<div class="handout">
+<pre>
+$ echo "Hello World" > README
+$ git add README
+</pre>
+</div>
 
 - git commit
     - Commit styles
@@ -70,12 +93,30 @@ Target audience: git beginner to intermediate
 
 - git show
     - git log -p
+<div class="handout">
+Add a few more files and commits to show more data in the log
+</div>
 
 - git clone
+<div class="handout">
+<pre>
+$ mkdir myclones
+$ cd myclones
+$ git clone ../project
+</pre>
+</div>
 
 - git diff
+<div class="handout">
+Add some changes to existing files to show the diff
+Explore some diff options by looking at git diff --help
+</div>
 
 - git pull
+<div class="handout">
+Go back to project/ directory and commit some changes.  Then go to the clone
+and do the pull
+</div>
 
 - git tag
     - lightweight vs annotated
@@ -92,6 +133,13 @@ Target audience: git beginner to intermediate
 - git checkout file
 
 - git reset
+<div class="handout">
+<pre>
+$ git reset --help
+$ git reset
+$ git reset --hard
+</pre>
+</div>
 
 - git reflog
     - recover an accidentally-dropped stash
