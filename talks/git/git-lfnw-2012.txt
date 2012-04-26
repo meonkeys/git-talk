@@ -107,6 +107,7 @@ $ git clone ../project
 </div>
 
 - git diff
+    - wtf is origin?
 <div class="handout">
 Add some changes to existing files to show the diff
 Explore some diff options by looking at git diff --help
@@ -153,16 +154,44 @@ $ git reset --hard
     - naming conventions
     - no checked out files
     - push to bare
-    - wtf is origin?
+<div class="handout">
+Create a bare repo by copying out project/.git
+Clone it into clones/ using the option to name the output dir
+Make some changes and push it back.
+</div>
 
 - Working from a branch
     - checkout -b
     - checkout master
     - diff master
+    - log master..HEAD
+<div class="handout">
+Do some changes on the branch to be able to diff.  Then commit those changes
+and do a comparison of commits vs just changed files
+<pre>
+$ git log master..HEAD
+$ git log master..
+</div> 
 
 - Creating patches
     - format-patch
     - git diff
+    - git send-email
+<div class="handout">
+Create some more changes but don't commit.
+<pre>
+$ git diff > foo.patch
+</pre>
+Now commit it (and more) and then use format-patch to get the patch(es)
+<pre>
+$ git format-patch HEAD^
+$ git format-patch <hash>^
+</pre>
+Finally show how you can send email directly with many options
+<pre>
+$ git send-email --compose --to anaconda-devel-list@redhat.com --subject "Stuff" HEAD^^
+</pre>
+</div>
 
 # Get along with other people (2/2)
 
