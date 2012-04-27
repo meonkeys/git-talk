@@ -240,8 +240,8 @@ $ git send-email --compose --to anaconda-devel-list@redhat.com --subject "Stuff"
 # Get efficient
 
 - git-enhanced shell prompt
-
-- command completion
+    - invaluable info included in prompt
+    - git command argument tab-completion
 
 - [set `core.autocrlf` appropriately!](http://help.github.com/line-endings/)
 
