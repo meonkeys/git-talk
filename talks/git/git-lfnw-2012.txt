@@ -154,9 +154,6 @@ and do the pull
 
 <!-- Adam -->
 
-- Obliterate
-    - Yes, it can be done
-
 - git checkout file
 
 - git reset
