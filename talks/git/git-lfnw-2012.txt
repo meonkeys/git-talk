@@ -295,6 +295,10 @@ push.default=upstream
     - run `gollum` from command line
     - hit <http://localhost:4567>
 
+# Get funky
+
+- [gource](http://code.google.com/p/gource/)
+
 # Further reading
 
 - [git reference manual](http://schacon.github.com/git/git.html) (man pages)
