@@ -196,6 +196,7 @@ and do a comparison of commits vs just changed files
 <pre>
 $ git log master..HEAD
 $ git log master..
+</pre>
 </div> 
 
 <!-- Jesse -->
