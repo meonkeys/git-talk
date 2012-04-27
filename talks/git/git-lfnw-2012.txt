@@ -240,6 +240,8 @@ $ git send-email --compose --to anaconda-devel-list@redhat.com --subject "Stuff"
 - Cherry picking
 
 - Conflict resolution
+    - software (including git) doesn't help much
+    - great communication does!
 
 # Get Clever (1/2)
 
