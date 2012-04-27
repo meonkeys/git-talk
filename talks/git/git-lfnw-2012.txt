@@ -57,10 +57,14 @@ Target audience: git beginner to intermediate
 
 # What can't git do?
 
+<!-- Jesse -->
+
 - effective contraception
     - actually...
 
 # Get Started (1/2)
+
+<!-- Jesse -->
 
 - git init
 <div class="handout">
@@ -91,19 +95,27 @@ $ git add README
 </pre>
 </div>
 
+<!-- Adam -->
+
 - git commit
     - Commit styles
     - Teach your developers how to write [proper commit log messages](http://mifosforge.jira.com/wiki/display/MIFOS/Commit+Log+Guide).
 
+<!-- Jesse -->
+
 - git log
 
 # Get Started (2/2)
+
+<!-- Jesse -->
 
 - git show
     - git log -p
 <div class="handout">
 Add a few more files and commits to show more data in the log
 </div>
+
+<!-- Adam -->
 
 - git clone
 <div class="handout">
@@ -127,14 +139,20 @@ Go back to project/ directory and commit some changes.  Then go to the clone
 and do the pull
 </div>
 
+<!-- Jesse -->
+
 - git tag
     - lightweight vs annotated
     - with gpg key
 
 # Get a Safety Net
 
+<!-- Jesse -->
+
 - dry runs
     - not an oxymoron
+
+<!-- Adam -->
 
 - Obliterate
     - Yes, it can be done
