@@ -9,6 +9,8 @@ Conference: LinuxFest Northwest 2012
 Target audience: git beginner to intermediate
 -->
 
+<!-- Adam -->
+
 - What we'll cover
     - good stuff
 - What we won't cover
@@ -16,9 +18,13 @@ Target audience: git beginner to intermediate
 
 # Credits
 
+<!-- Adam -->
+
 - Thank you, LFNW, thank you BLUG!
 
 # What is git?
+
+<!-- Both -->
 
 - Snapshot management
     - each "commit" is a snapshot of the tree instead of patches
@@ -36,6 +42,8 @@ Target audience: git beginner to intermediate
     - <http://whygitisbetterthanx.com/>
 
 # What is it used for?
+
+<!-- Jesse -->
 
 - Upstream source management
 
