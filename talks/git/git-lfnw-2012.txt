@@ -297,8 +297,9 @@ push.default=upstream
 
 # Further reading
 
-- [a complete workflow recommendation](https://gist.github.com/2015828)
+- [git reference manual](http://schacon.github.com/git/git.html) (man pages)
 - [Pro Git](http://progit.org)
+- [a complete workflow recommendation](https://gist.github.com/2015828)
 
 
 <!--
