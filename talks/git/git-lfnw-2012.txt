@@ -172,6 +172,8 @@ $ git reset --hard
 
 # Get along with other people (1/2)
 
+<!-- Adam -->
+
 - Sharing with bare repo
     - git clone --bare --shared
     - naming conventions
@@ -196,6 +198,8 @@ $ git log master..HEAD
 $ git log master..
 </div> 
 
+<!-- Jesse -->
+
 - Creating patches
     - format-patch
     - git diff
@@ -218,6 +222,8 @@ $ git send-email --compose --to anaconda-devel-list@redhat.com --subject "Stuff"
 
 # Get along with other people (2/2)
 
+<!-- Jesse -->
+
 - Applying patches
     - git apply
     - git am
@@ -228,11 +234,15 @@ $ git send-email --compose --to anaconda-devel-list@redhat.com --subject "Stuff"
     - git send-email
     - pull requests
 
+<!-- Adam -->
+
 - Cherry picking
 
 - Conflict resolution
 
 # Get Clever (1/2)
+
+<!-- Adam -->
 
 - git blame
 
@@ -251,6 +261,8 @@ $ git send-email --compose --to anaconda-devel-list@redhat.com --subject "Stuff"
 
 # Get Clever (2/2)
 
+<!-- Adam -->
+
 - bisect
     - cut problem in half algorithm (simplified here)
 
@@ -261,6 +273,8 @@ $ git send-email --compose --to anaconda-devel-list@redhat.com --subject "Stuff"
     - <http://stackoverflow.com/a/2333917/156060>
 
 # Get efficient
+
+<!-- Adam -->
 
 - git-enhanced shell prompt
     - invaluable info included in prompt
@@ -305,6 +319,8 @@ push.default=upstream
 
 # Get smart
 
+<!-- Adam -->
+
 - Read [Pro Git](http://progit.org)!
 - Now. Do it now.
 
@@ -320,9 +336,13 @@ push.default=upstream
 
 # Get funky
 
+<!-- Adam -->
+
 - [gource](http://code.google.com/p/gource/)
 
 # Further reading
+
+<!-- Adam -->
 
 - [git reference manual](http://schacon.github.com/git/git.html) (man pages)
 - [Pro Git](http://progit.org)
