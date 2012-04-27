@@ -155,6 +155,13 @@ and do the pull
 <!-- Adam -->
 
 - git checkout file
+<div class="handout">
+<ol>
+    <li>make local changes</li>
+    <li>revert changes in one file with <code>git checkout file</code></li>
+</ol>
+Sometimes <code>git checkout -- file</code> syntax is required.
+</div>
 
 - git reset
 <div class="handout">
@@ -166,9 +173,22 @@ $ git reset --hard
 </div>
 
 - git reflog
-    - recover an accidentally-dropped stash
+    - recover lost commits
     - <http://gitready.com/intermediate/2009/02/09/reflog-your-safety-net.html>
     - <http://gitready.com/advanced/2009/01/17/restoring-lost-commits.html>
+<div class="handout">
+<pre>
+# make changes
+$ git commit -m 'first'
+# make more changes
+$ git commit -m 'second'
+# whoops! blow away 'second'
+$ git reset --hard HEAD^
+# hooray, git still has it
+$ git reflog
+$ git merge HEAD@{1}
+</pre>
+</div>
 
 # Get along with other people (1/2)
 
@@ -238,6 +258,14 @@ $ git send-email --compose --to anaconda-devel-list@redhat.com --subject "Stuff"
 <!-- Adam -->
 
 - Cherry picking
+    - diff-and-apply from anywhere to anywhere
+    - consider `-x`, as in `git cherry-pick -x COMMIT`
+<div class="handout">
+<ol>
+    <li>commit something to a branch<li>
+    <li>cherry-pick it onto another branch<li>
+</ol>
+</div>
 
 - Conflict resolution
     - software (including git) doesn't help much
@@ -248,10 +276,35 @@ $ git send-email --compose --to anaconda-devel-list@redhat.com --subject "Stuff"
 <!-- Adam -->
 
 - git blame
+<div class="handout">
+<pre>
+$ git blame
+</pre>
+</div>
 
 - git stash
+<div class="handout">
+Make some local modifications, then
+<pre>
+$ git stash
+# or
+$ git stash save 'WIP almost cracked SHA-512'
+$ git stash list
+$ git stash show -p
+$ git stash pop
+# or
+$ git stash drop
+</pre>
+</div>
 
 - interactive commit
+    - just like `add -p` followed by commit
+<div class="handout">
+Make some local modifications, then
+<pre>
+$ git commit --interactive
+</pre>
+</div>
 
 - complex merges
     - When should you merge, when should you rebase?
