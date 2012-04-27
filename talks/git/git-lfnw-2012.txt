@@ -150,7 +150,7 @@ $ git reset --hard
 # Get along with other people (1/2)
 
 - Sharing with bare repo
-    - git clone --bare
+    - git clone --bare --shared
     - naming conventions
     - no checked out files
     - push to bare
