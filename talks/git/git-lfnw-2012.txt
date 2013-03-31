@@ -1,11 +1,11 @@
 % Git Deep
 % Jesse Keating and Adam Monsen
-% April 28, 2012
+% April 28, 2013
 
 # Intro
 
 <!--
-Conference: LinuxFest Northwest 2012
+Conference: LinuxFest Northwest 2013
 Target audience: git beginner to intermediate
 -->
 
@@ -40,27 +40,6 @@ Target audience: git beginner to intermediate
 
 - Git is better than everything
     - <http://whygitisbetterthanx.com/>
-
-# What is it used for?
-
-<!-- Jesse -->
-
-- Upstream source management
-
-- Distribution source management
-
-- Config management
-
-- Backups
-
-- Cloud access
-
-# What can't git do?
-
-<!-- Jesse -->
-
-- effective contraception
-    - actually...
 
 # Get Started (1/2)
 
@@ -194,6 +173,8 @@ $ git merge HEAD@{1}
 
 <!-- Adam -->
 
+<!-- TODO: turn this into github -->
+
 - Sharing with bare repo
     - git clone --bare --shared
     - naming conventions
@@ -221,6 +202,8 @@ $ git log master..
 
 <!-- Jesse -->
 
+<!-- TODO: Talk about github here too -->
+
 - Creating patches
     - format-patch
     - git diff
@@ -244,6 +227,8 @@ $ git send-email --compose --to anaconda-devel-list@redhat.com --subject "Stuff"
 # Get along with other people (2/2)
 
 <!-- Jesse -->
+
+<!-- TODO: talk about how this is what a pull request is doing -->
 
 - Applying patches
     - git apply
@@ -315,6 +300,9 @@ $ git commit --interactive
     - pull --rebase
     - odd name, very useful and easy
 
+<!-- Jesse -->
+<!-- TODO: put in stuff for git grep, git show of other branches -->
+
 # Get Clever (2/2)
 
 <!-- Adam -->
@@ -373,7 +361,7 @@ push.default=upstream
 </pre>
 </div>
 
-# Get smart
+# Further reading
 
 <!-- Adam -->
 
@@ -382,26 +370,7 @@ push.default=upstream
 
 <center><a href="http://progit.org"><img src="http://progit.org/images/book-big.jpg" /></a></center>
 
-# Get agile
-
-- [gollum](https://github.com/github/gollum) is a git-backed wiki
-    - follow install (must use [older redcarpet](http://stackoverflow.com/a/8395471/156060))
-    - create new git repo
-    - run `gollum` from command line
-    - hit <http://localhost:4567>
-
-# Get funky
-
-<!-- Adam -->
-
-- [gource](http://code.google.com/p/gource/)
-
-# Further reading
-
-<!-- Adam -->
-
 - [git reference manual](http://schacon.github.com/git/git.html) (man pages)
-- [Pro Git](http://progit.org)
 - [a complete workflow recommendation](https://gist.github.com/2015828)
 
 
