@@ -4,4 +4,7 @@ git-talk-s5.html: git-talk.txt
 git-talk-s5-FINAL.html: git-talk.txt
 	pandoc -w s5 --data-dir=. --self-contained -s $< > $@
 
+clean:
+	$(RM) *.html
+
 .DELETE_ON_ERROR:
