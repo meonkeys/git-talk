@@ -1,4 +1,4 @@
-% Git Deep
+% Git for fun and profit!
 % Jesse Keating and Adam Monsen
 % April 28, 2013
 
