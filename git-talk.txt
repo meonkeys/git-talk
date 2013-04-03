@@ -375,5 +375,5 @@ push.default=upstream
 
 
 <!--
-vim: ft=pandoc
+vim: ft=markdown
 -->
