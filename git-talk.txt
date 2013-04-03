@@ -133,7 +133,7 @@ and do the pull
 
 <!-- Adam -->
 
-- git checkout file
+- git checkout FILE
 <div class="handout">
 <ol>
     <li>make local changes</li>
