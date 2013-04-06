@@ -301,8 +301,8 @@ $ git commit --interactive
 
 <!-- Adam -->
 
-- bisect
-    - cut problem in half algorithm (simplified here)
+- bisect ([demo repo](https://github.com/meonkeys/secret-octo-ironman))
+    - binary search for commit introducing bug
 
 - Interactive revert
     - <http://stackoverflow.com/a/2383361/156060>
