@@ -173,32 +173,26 @@ $ git merge HEAD@{1}
 
 <!-- Adam -->
 
-<!-- TODO: turn this into github -->
+- GitHub at a glance
+    - very popular, integrates with everything
+    - lightning-fast collaboration
+    - proprietary, but most data+history are in git
+    - if you can use Git, you can use GitHub
+- GitHub pull request demo
+    - create branch
+    - commit change
+    - push change
+    - create PR
+    - merge PR
+    - delete branch
 
-- Sharing with bare repo
-    - git clone --bare --shared
-    - naming conventions
-    - no checked out files
-    - push to bare
 <div class="handout">
-Create a bare repo by copying out project/.git
-Clone it into clones/ using the option to name the output dir
-Make some changes and push it back.
+<p>This section used to be about creating a stand-alone bare clone to share
+with others over SSH. This still works, of course, but you'll probably also
+want to learn GitHub since so many people use it.</p>
+<p>Warning: some data is not in saved your git repo. For instance: pull request
+description/body, code reviews. It may be possible to export this.</p>
 </div>
-
-- Working from a branch
-    - checkout -b
-    - checkout master
-    - diff master
-    - log master..HEAD
-<div class="handout">
-Do some changes on the branch to be able to diff.  Then commit those changes
-and do a comparison of commits vs just changed files
-<pre>
-$ git log master..HEAD
-$ git log master..
-</pre>
-</div> 
 
 <!-- Jesse -->
 
