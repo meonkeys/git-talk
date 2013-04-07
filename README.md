@@ -1,6 +1,6 @@
 # Git talk
 
-Git talk by Jesse Keating and [Adam Monsen](http://adammonsen.com/).
+Git talk by [Jesse Keating](http://raxcloud.blogspot.com/) and [Adam Monsen](http://adammonsen.com/).
 
 To be presented at [LinuxFest Northwest
 2013](http://www.linuxfestnorthwest.org/content/git-fun-and-profit). Come
