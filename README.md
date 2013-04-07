@@ -1,4 +1,4 @@
-Git talk by Jesse Keating and Adam Monsen.
+Git talk by Jesse Keating and [Adam Monsen](http://adammonsen.com/).
 
 To be presented at [LinuxFest Northwest
 2013](http://www.linuxfestnorthwest.org/content/git-fun-and-profit). Come
