@@ -310,51 +310,6 @@ $ git commit --interactive
 - hand-edited commits
     - <http://stackoverflow.com/a/2333917/156060>
 
-# Get efficient
-
-<!-- Adam -->
-
-- git-enhanced shell prompt
-    - invaluable info included in prompt
-    - git command argument tab-completion
-
-- [set `core.autocrlf` appropriately!](http://help.github.com/line-endings/)
-
-- use [snerk-util git scripts](https://github.com/meonkeys/snerk-util/tree/master/git) for operating on many git repositories at once
-    - also consider submodules
-
-- see handout for handy config settings
-
-<div class="handout">
-Paste these right into <code>~/.gitconfig</code>. See
-<code>git-config(1)</code> manpage for details.
-<pre>
-# svn-like, plus shows diff in editor
-alias.ci=commit -v
-
-# great for avoiding unexpected merges
-alias.pf=pull --ff-only
-
-# useful for rebasing often
-alias.pr=pull --rebase
-
-# detailed log command I use often
-alias.plog=log --decorate --find-copies-harder -c -C -M -p
-
-# summary log command I use often
-alias.slog=log --decorate --find-copies-harder -C -M --stat
-
-# svn-like
-alias.st=status
-
-# provides handy visual cues
-color.ui=auto
-
-# only push upstream branch matching currently checked-out branch
-push.default=upstream
-</pre>
-</div>
-
 # Further reading
 
 <!-- Adam -->
@@ -362,10 +317,15 @@ push.default=upstream
 - Read [Pro Git](http://progit.org)!
 - Now. Do it now.
 
-<center><a href="http://progit.org"><img src="http://progit.org/images/book-big.jpg" /></a></center>
+<span style="float:right"><a href="http://progit.org"><img src="http://progit.org/images/book-big.jpg" /></a></span>
 
+- [set `core.autocrlf` appropriately!](http://help.github.com/line-endings/)
 - [git reference manual](http://schacon.github.com/git/git.html) (man pages)
-- [a complete workflow recommendation](https://gist.github.com/2015828)
+- [git-enhanced shell prompt and tab-completion](http://git-scm.com/book/en/Git-Basics-Tips-and-Tricks#Auto-Completion)
+    - invaluable info included in prompt
+- use [snerk-util git scripts](https://github.com/meonkeys/snerk-util/tree/master/git) for operating on many git repositories at once
+    - also consider submodules
+- [Adam's git config](https://github.com/meonkeys/dotfiles)
 
 
 <!--
