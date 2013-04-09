@@ -160,8 +160,6 @@ $ git reset --hard
 
 - git reflog
     - recover lost commits
-    - <http://gitready.com/intermediate/2009/02/09/reflog-your-safety-net.html>
-    - <http://gitready.com/advanced/2009/01/17/restoring-lost-commits.html>
 <div class="handout">
 <pre>
 # make changes
@@ -174,7 +172,12 @@ $ git reset --hard HEAD^
 $ git reflog
 $ git reset --hard HEAD@{1}
 </pre>
-Note that <code>git merge HEAD@{1}</code> also works. Good luck with that one.
+<p>Note that <code>git merge HEAD@{1}</code> also works. Good luck with that one.</p>
+<p>Further reading:
+<ol>
+  <li><a href="http://gitready.com/intermediate/2009/02/09/reflog-your-safety-net.html">http://gitready.com/intermediate/2009/02/09/reflog-your-safety-net.html</a></li>
+  <li><a href="http://gitready.com/advanced/2009/01/17/restoring-lost-commits.html">http://gitready.com/advanced/2009/01/17/restoring-lost-commits.html</a></li>
+</p>
 </div>
 
 # Get along with other people (1/3)
