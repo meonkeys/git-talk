@@ -267,7 +267,7 @@ doing, and again we'll see the details of what happens.</p>
     - software (including git) doesn't help much
     - great communication does!
 
-# Get Clever (1/2)
+# Get Clever (1/3)
 
 <!-- Adam -->
 
@@ -311,6 +311,8 @@ $ git commit --interactive
     - pull --rebase
     - odd name, very useful and easy
 
+# Get Clever (2/3)
+
 <!-- Jesse -->
 
 - git grep
@@ -319,7 +321,7 @@ $ git commit --interactive
 - git show
     - See content from history or other branches
 
-# Get Clever (2/2)
+# Get Clever (3/3)
 
 <!-- Adam -->
 
