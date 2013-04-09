@@ -173,7 +173,7 @@ $ git merge HEAD@{1}
 </pre>
 </div>
 
-# Get along with other people (1/2)
+# Get along with other people (1/3)
 
 <!-- Adam -->
 
@@ -182,6 +182,9 @@ $ git merge HEAD@{1}
     - lightning-fast collaboration
     - proprietary, but most data+history are in git
     - if you can use Git, you can use GitHub
+
+# Get along with other people (2/3)
+
 - GitHub pull request demo
     - create branch
     - commit change
@@ -229,7 +232,7 @@ $ git request-pull origin/master jlk ansible
 </pre>
 </div>
 
-# Get along with other people (2/2)
+# Get along with other people (3/3)
 
 <!-- Jesse -->
 
