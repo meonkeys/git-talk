@@ -172,8 +172,9 @@ $ git commit -m 'second'
 $ git reset --hard HEAD^
 # hooray, git still has it
 $ git reflog
-$ git merge HEAD@{1}
+$ git reset --hard HEAD@{1}
 </pre>
+Note that <code>git merge HEAD@{1}</code> also works. Good luck with that one.
 </div>
 
 # Get along with other people (1/3)
