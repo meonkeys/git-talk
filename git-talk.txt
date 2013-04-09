@@ -71,6 +71,7 @@ nothing to commit (create/copy files and use "git add" to track)
 <pre>
 $ echo "Hello World" > README
 $ git add README
+$ git show
 </pre>
 </div>
 
