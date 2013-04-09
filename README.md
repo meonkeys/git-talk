@@ -1,4 +1,4 @@
-# Git talk
+# Gout talk
 
 Git talk by [Jesse Keating](http://raxcloud.blogspot.com/) and [Adam Monsen](http://adammonsen.com/).
 
