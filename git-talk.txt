@@ -299,7 +299,12 @@ $ git commit --interactive
     - odd name, very useful and easy
 
 <!-- Jesse -->
-<!-- TODO: put in stuff for git grep, git show of other branches -->
+
+- git grep
+    - can grep working tree or other treeishs
+
+- git show
+    - See content from history or other branches
 
 # Get Clever (2/2)
 
