@@ -312,8 +312,7 @@ $ git commit --interactive
 </pre>
 </div>
 
-- complex merges
-    - When should you merge, when should you rebase?
+<!-- Jesse -->
 
 - rebase
     - interactive
