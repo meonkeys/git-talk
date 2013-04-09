@@ -239,9 +239,7 @@ $ git reset --hard
 </li>
 <li>git reflog
 <ul>
-<li>recover lost commits</li>
-<li><a href="http://gitready.com/intermediate/2009/02/09/reflog-your-safety-net.html"><code class="url">http://gitready.com/intermediate/2009/02/09/reflog-your-safety-net.html</code></a></li>
-<li><a href="http://gitready.com/advanced/2009/01/17/restoring-lost-commits.html"><code class="url">http://gitready.com/advanced/2009/01/17/restoring-lost-commits.html</code></a>
+<li>recover lost commits
 <div class="handout">
 <pre>
 # make changes
@@ -254,7 +252,19 @@ $ git reset --hard HEAD^
 $ git reflog
 $ git reset --hard HEAD@{1}
 </pre>
+<p>
 Note that <code>git merge HEAD@{1}</code> also works. Good luck with that one.
+</p>
+<p>
+Further reading:
+<ol>
+  <li>
+<a href="http://gitready.com/intermediate/2009/02/09/reflog-your-safety-net.html">http://gitready.com/intermediate/2009/02/09/reflog-your-safety-net.html</a>
+</li>
+  <li>
+<a href="http://gitready.com/advanced/2009/01/17/restoring-lost-commits.html">http://gitready.com/advanced/2009/01/17/restoring-lost-commits.html</a>
+</li>
+</p>
 </div>
 </li>
 </ul></li>
@@ -446,6 +456,8 @@ $ git commit --interactive
 <li>odd name, very useful and easy</li>
 </ul></li>
 </ul>
+<!-- TODO: put in hand out content for rebase -->
+
 </div>
 <div class="section slide level1" id="get-clever-23">
 <h1>Get Clever (2/3)</h1>
@@ -494,14 +506,8 @@ $ git commit --interactive
 <li>also consider submodules</li>
 </ul></li>
 <li><a href="https://github.com/meonkeys/dotfiles">Adam's git config</a></li>
-<li>Interactive revert
-<ul>
-<li><a href="http://stackoverflow.com/a/2383361/156060"><code class="url">http://stackoverflow.com/a/2383361/156060</code></a></li>
-</ul></li>
-<li>hand-edited commits
-<ul>
-<li><a href="http://stackoverflow.com/a/2333917/156060"><code class="url">http://stackoverflow.com/a/2333917/156060</code></a></li>
-</ul></li>
+<li><a href="http://stackoverflow.com/a/2383361/156060">Interactive revert</a></li>
+<li><a href="http://stackoverflow.com/a/2333917/156060">hand-edited commits</a></li>
 </ul>
 <!--
 vim: ft=markdown
