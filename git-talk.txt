@@ -130,6 +130,10 @@ and do the pull
 
 - dry runs
     - not an oxymoron
+<div class="handout">
+Many commands have a --dry-run or -n option. This option can be used to test
+an action before doing it. push, rm, add, clean, mv, etc...
+</div>
 
 <!-- Adam -->
 
