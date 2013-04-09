@@ -320,6 +320,8 @@ $ git commit --interactive
     - pull --rebase
     - odd name, very useful and easy
 
+<!-- TODO: put in hand out content for rebase -->
+
 # Get Clever (2/3)
 
 <!-- Jesse -->
