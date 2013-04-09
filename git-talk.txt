@@ -355,10 +355,8 @@ $ git commit --interactive
 - use [snerk-util git scripts](https://github.com/meonkeys/snerk-util/tree/master/git) for operating on many git repositories at once
     - also consider submodules
 - [Adam's git config](https://github.com/meonkeys/dotfiles)
-- Interactive revert
-    - <http://stackoverflow.com/a/2383361/156060>
-- hand-edited commits
-    - <http://stackoverflow.com/a/2333917/156060>
+- [Interactive revert](http://stackoverflow.com/a/2383361/156060)
+- [hand-edited commits](http://stackoverflow.com/a/2333917/156060)
 
 
 <!--
