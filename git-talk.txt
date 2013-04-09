@@ -198,6 +198,12 @@ Note that <code>git merge HEAD@{1}</code> also works. Good luck with that one.
     - delete branch
 
 <div class="handout">
+<pre>
+$ git checkout -b newtitle
+$ editor README.md
+$ git commit
+$ git push -u origin newtitle
+</pre>
 <p>This section used to be about creating a stand-alone bare clone to share
 with others over SSH. This still works, of course, but you'll probably also
 want to learn GitHub since so many people use it.</p>
