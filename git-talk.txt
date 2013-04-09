@@ -109,8 +109,10 @@ $ git clone ../project
 - git diff
     - wtf is origin?
 <div class="handout">
-Add some changes to existing files to show the diff
-Explore some diff options by looking at git diff --help
+<ul>
+  <li>cd back into original project</li>
+  <li>Add some changes to existing files to show the diff</li>
+  <li>Explore some diff options by looking at git diff --help (opens <code>git-diff(1)</code>manpage)</li>
 </div>
 
 - git pull
