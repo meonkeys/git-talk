@@ -78,8 +78,8 @@ $ git show
 <!-- Adam -->
 
 - git commit
-    - Commit styles
-    - Teach your developers how to write [proper commit log messages](http://mifosforge.jira.com/wiki/display/MIFOS/Commit+Log+Guide).
+    - write [proper commit log messages](http://mifosforge.jira.com/wiki/display/MIFOS/Commit+Log+Guide)
+    - and make sure your peers do too!
 
 <!-- Jesse -->
 
