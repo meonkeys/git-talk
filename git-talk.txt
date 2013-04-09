@@ -204,6 +204,7 @@ description/body, code reviews. It may be possible to export this.</p>
     - format-patch
     - git diff
     - git send-email
+    - git request-pull
 <div class="handout">
 <p>Here we will do some of the same things that we did with github, only we
 will do them manually to show a bit more of what's going on, and to give you
@@ -220,6 +221,11 @@ $ git format-patch <hash>^
 Finally show how you can send email directly with many options
 <pre>
 $ git send-email --compose --to jkeating@j2solutions.net --subject "Stuff" HEAD^^
+</pre>
+<p>Git request-pull allows you to create a summary of differences in your fork
+of a project. Very similar to a GitHub pull-request.</p>
+<pre>
+$ git request-pull origin/master jlk ansible
 </pre>
 </div>
 
