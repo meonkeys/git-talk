@@ -322,8 +322,18 @@ $ git commit --interactive
     - rebase to a branch
     - pull --rebase
     - odd name, very useful and easy
-
-<!-- TODO: put in hand out content for rebase -->
+<div class="handout">
+<ol>
+  <li>Make a series of commits on a branch, some fixups, etc..<li>
+  <li>Make more nonconflicting changes on master<li>
+</ol>
+<pre>
+$ git rebase -i HEAD^^^
+</pre>
+<pre>
+$ git rebase master
+</pre>
+</div>
 
 # Get Clever (2/3)
 
