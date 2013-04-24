@@ -1,7 +1,7 @@
-git-talk-s5.html: git-talk.txt
+git-talk-s5.html: git-talk.md
 	pandoc -w s5 -s $< > $@
 
-git-talk-s5-FINAL.html: git-talk.txt
+git-talk-s5-FINAL.html: git-talk.md
 	pandoc -w s5 --data-dir=. --self-contained -s $< > $@
 
 publish-to-github: git-talk-s5-FINAL.html
