@@ -453,11 +453,26 @@ $ git commit --interactive
 <li>interactive</li>
 <li>rebase to a branch</li>
 <li>pull --rebase</li>
-<li>odd name, very useful and easy</li>
+<li>odd name, very useful and easy
+<div class="handout">
+<ol>
+  <li>
+Make a series of commits on a branch, some fixups, etc..
+<li>
+  <li>
+Make more nonconflicting changes on master
+<li>
+</ol>
+<pre>
+$ git rebase -i HEAD^^^
+</pre>
+<pre>
+$ git rebase master
+</pre>
+</div>
+</li>
 </ul></li>
 </ul>
-<!-- TODO: put in hand out content for rebase -->
-
 </div>
 <div class="section slide level1" id="get-clever-23">
 <h1>Get Clever (2/3)</h1>
