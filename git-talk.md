@@ -1,11 +1,11 @@
 % Git for fun and profit!
 % Jesse Keating and Adam Monsen
-% April 28, 2013
+% October 11, 2013
 
 # Intro
 
 <!--
-Conference: LinuxFest Northwest 2013
+Conference: SeaGL 2013
 Target audience: git beginner to intermediate
 -->
 

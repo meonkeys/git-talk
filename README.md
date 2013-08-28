@@ -2,9 +2,7 @@
 
 Git talk by [Jesse Keating](http://raxcloud.blogspot.com/) and [Adam Monsen](http://adammonsen.com/).
 
-To be presented at [LinuxFest Northwest
-2013](http://www.linuxfestnorthwest.org/content/git-fun-and-profit). Come
-check it out!
+To be presented at [SeaGL 2013](http://seagl.org). Come check it out!
 
 [Generated Slideshow](http://meonkeys.github.io/git-talk/).
 
