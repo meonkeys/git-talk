@@ -12,7 +12,7 @@ Target audience: Git intermediate users
 <!-- Adam -->
 
 - What we'll cover
-    - collaboration errwith others
+    - collaboration with others
     - more advanced error recovery
     - bug forensics
 
@@ -20,8 +20,9 @@ Target audience: Git intermediate users
 
 - Thank you, SCCC, thank you SeaGL, and thank you all the sponsors!
 
-# Something's broken. Grab your Sherlock hat and pipe.
+# It's a Mystery!
 
+- Something's broken. Grab your Sherlock hat and pipe.
 - `git bisect` ([demo repo](https://github.com/meonkeys/secret-octo-ironman))
     - binary search for commit introducing bug
 - `git blame`
@@ -43,7 +44,7 @@ $ git blame
     - proprietary, but most data+history are in git
     - if you can use Git, you can use GitHub
 
-# GitHub central repo "workplace" example
+# Central repo "workplace" example
 
 - GitHub pull request demo
     - create branch
@@ -220,11 +221,8 @@ doing, and again we'll see the details of what happens.</p>
 - [git reference manual](http://schacon.github.com/git/git.html) (man pages)
 - [git-enhanced shell prompt and tab-completion](http://git-scm.com/book/en/Git-Basics-Tips-and-Tricks#Auto-Completion)
     - invaluable info included in prompt
-- use [snerk-util git scripts](https://github.com/meonkeys/snerk-util/tree/master/git) for operating on many Git repositories at once
-    - also consider submodules
 - [Adam's Git config](https://github.com/meonkeys/dotfiles)
-- [Interactive revert](http://stackoverflow.com/a/2383361/156060)
-- [hand-edited commits](http://stackoverflow.com/a/2333917/156060)
+- [Interactive revert](http://stackoverflow.com/a/2383361/156060), [hand-edited commits](http://stackoverflow.com/a/2333917/156060)
 
 
 <!--
