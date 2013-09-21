@@ -1,4 +1,4 @@
-<% Intermediate Git
+% Intermediate Git
 % Jesse Keating and Adam Monsen
 % October 11, 2013
 
