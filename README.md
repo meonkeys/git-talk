@@ -1,4 +1,4 @@
-# Git talk
+# Intermediate Git
 
 Git talk by [Jesse Keating](http://raxcloud.blogspot.com/) and [Adam Monsen](http://adammonsen.com/).
 
