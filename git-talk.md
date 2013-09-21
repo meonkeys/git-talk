@@ -1,4 +1,4 @@
-% Git for fun and profit!
+<% Introduction to Git
 % Jesse Keating and Adam Monsen
 % October 11, 2013
 
@@ -6,25 +6,21 @@
 
 <!--
 Conference: SeaGL 2013
-Target audience: git beginner to intermediate
+Target audience: Git beginner
 -->
 
-<!-- Adam -->
+<!-- Jesse -->
 
 - What we'll cover
-    - good stuff
-- What we won't cover
-    - bad stuff
+    - introduction to Git
+    - enough skills to be functional with git
+    - a base understanding of the concepts and utilities
 
 # Credits
 
-<!-- Adam -->
+- Thank you, SCCC, thank you SeaGL, and thank you all the sponsors!
 
-- Thank you, LFNW, thank you BLUG!
-
-# What is git?
-
-<!-- Both -->
+# What is Git?
 
 - Snapshot management
     - each "commit" is a snapshot of the tree instead of patches
@@ -43,9 +39,7 @@ Target audience: git beginner to intermediate
 
 # Get Started (1/2)
 
-<!-- Jesse -->
-
-- git init
+- `git init`
 <div class="handout">
 <pre>
 $ mkdir project
@@ -54,7 +48,7 @@ $ git init .
 </pre>
 </div>
 
-- git status
+- `git status`
 <div class="handout">
 <pre>
 $ git status
@@ -66,7 +60,7 @@ nothing to commit (create/copy files and use "git add" to track)
 </pre>
 </div>
 
-- git add
+- `git add`
 <div class="handout">
 <pre>
 $ echo "Hello World" &gt; README
@@ -75,29 +69,28 @@ $ git show
 </pre>
 </div>
 
-<!-- Adam -->
-
-- git commit
+- `git commit`
     - write [proper commit log messages](http://mifosforge.jira.com/wiki/display/MIFOS/Commit+Log+Guide)
     - and make sure your peers do too!
 
-<!-- Jesse -->
-
-- git log
+- `git log`
 
 # Get Started (2/2)
 
-<!-- Jesse -->
-
-- git show
-    - git log -p
+- `git show`
+    - `git log -p`
 <div class="handout">
 Add a few more files and commits to show more data in the log
 </div>
+<pre>
+$ touch foo bar baz
+$ echo 1 > foo; echo 2 > bar; echo 3 > baz
+$ git add foo bar baz
+$ git commit -v
+$ git log -p
+</pre>
 
-<!-- Adam -->
-
-- git clone
+- `git clone`
 <div class="handout">
 <pre>
 $ mkdir myclones
@@ -106,8 +99,7 @@ $ git clone ../project
 </pre>
 </div>
 
-- git diff
-    - wtf is origin?
+- `git diff`
 <div class="handout">
 <ul>
   <li>cd back into original project</li>
@@ -115,32 +107,40 @@ $ git clone ../project
   <li>Explore some diff options by looking at git diff --help (opens <code>git-diff(1)</code>manpage)</li>
 </div>
 
-- git pull
+- `git pull`
+    - default remote of origin
+    - pull is a fetch + merge
 <div class="handout">
-Go back to project/ directory and commit some changes.  Then go to the clone
-and do the pull
+Commit changes made in previous step, switch to clone dir and do the pull
 </div>
 
-<!-- Jesse -->
+- `git push`
+    - push will share your changes with the remote
+    - force push is bad mm-key?
+<div class="handout">
+<ul>
+  <li>Make changes in clone</li>
+  <li>commit changes</li>
+  <li>git push</li>
+</div>
 
-- git tag
+- `git tag`
     - lightweight vs annotated
     - with gpg key
 
 # Get a Safety Net
-
-<!-- Jesse -->
+- nearly every mistake can be recovered from
+    - nobody knows you screwed up until after push
 
 - dry runs
-    - not an oxymoron
+    - try before you buy
 <div class="handout">
 Many commands have a --dry-run or -n option. This option can be used to test
 an action before doing it. push, rm, add, clean, mv, etc...
 </div>
 
-<!-- Adam -->
-
-- git checkout FILE
+- `git checkout FILE`
+    - recover a file after screwing it up
 <div class="handout">
 <ol>
     <li>make local changes</li>
@@ -149,7 +149,8 @@ an action before doing it. push, rm, add, clean, mv, etc...
 Sometimes <code>git checkout -- file</code> syntax is required.
 </div>
 
-- git reset
+- `git reset`
+    - soft vs. hard
 <div class="handout">
 <pre>
 $ git reset --help
@@ -158,31 +159,65 @@ $ git reset --hard
 </pre>
 </div>
 
-- git reflog
-    - recover lost commits
+# Brief intro to topic branching
+
+- Reasons to branch
+    - keeps master "working"
+    - keeps teams happy
+    - allows multi-tasking of development
+    - merge changes in when ready
+- `git branch`
 <div class="handout">
 <pre>
-# make changes
-$ git commit -m 'first'
-# make more changes
-$ git commit -m 'second'
-# whoops! blow away 'second'
-$ git reset --hard HEAD^
-# hooray, git still has it
-$ git reflog
-$ git reset --hard HEAD@{1}
+$ git checkout -b featurefoo
+$ echo "42" &gt;&gt; foo
+$ git commit -av
+$ git diff master
+$ git checkout master
+$ cat foo
+$ git diff featurefoo
+$ git merge featurefoo
 </pre>
-<p>Note that <code>git merge HEAD@{1}</code> also works. Good luck with that one.</p>
-<p>Further reading:
-<ol>
-  <li><a href="http://gitready.com/intermediate/2009/02/09/reflog-your-safety-net.html">http://gitready.com/intermediate/2009/02/09/reflog-your-safety-net.html</a></li>
-  <li><a href="http://gitready.com/advanced/2009/01/17/restoring-lost-commits.html">http://gitready.com/advanced/2009/01/17/restoring-lost-commits.html</a></li>
-</p>
 </div>
 
-# Get along with other people (1/3)
+<% Intermediate Git
+% Jesse Keating and Adam Monsen
+% October 11, 2013
+
+# Intro
+
+<!--
+Conference: SeaGL 2013
+Target audience: Git intermediate users
+-->
 
 <!-- Adam -->
+
+- What we'll cover
+    - collaboration errwith others
+    - more advanced error recovery
+    - bug forensics
+
+# Credits
+
+- Thank you, SCCC, thank you SeaGL, and thank you all the sponsors!
+
+# Something's broken. Grab your Sherlock hat and pipe.
+
+- `git bisect` ([demo repo](https://github.com/meonkeys/secret-octo-ironman))
+    - binary search for commit introducing bug
+- `git blame`
+<div class="handout">
+<pre>
+$ git blame
+</pre>
+</div>
+
+# Collaboratification
+
+- You've identified and fixed a problem. Now, get your fix upstream!
+
+# Get familiar with GitHub
 
 - GitHub at a glance
     - very popular, integrates with everything
@@ -190,7 +225,7 @@ $ git reset --hard HEAD@{1}
     - proprietary, but most data+history are in git
     - if you can use Git, you can use GitHub
 
-# Get along with other people (2/3)
+# GitHub central repo "workplace" example
 
 - GitHub pull request demo
     - create branch
@@ -214,13 +249,108 @@ want to learn GitHub since so many people use it.</p>
 description/body, code reviews. It may be possible to export this.</p>
 </div>
 
-<!-- Jesse -->
+# Spread the fix around
 
-- Creating patches
+- Cherry picking
+    - diff-and-apply from anywhere to anywhere
+    - consider `-x`, as in `git cherry-pick -x COMMIT`
+<div class="handout">
+<ol>
+    <li>commit something to a branch<li>
+    <li>cherry-pick it onto another branch<li>
+</ol>
+</div>
+
+- Conflict resolution
+    - software (including Git) doesn't help much
+    - great communication does!
+
+# Get Clever (1/3)
+
+- We've spent weeks on this change
+- Meanwhile, upstream has changed!
+- time to `git rebase`
+    - interactive
+    - rebase to a branch
+    - pull --rebase
+    - odd name, very useful and easy
+<div class="handout">
+<ol>
+  <li>Make a series of commits on a branch, some fixups, etc..<li>
+  <li>Make more nonconflicting changes on master<li>
+</ol>
+<pre>
+$ git rebase -i HEAD^^^
+</pre>
+<pre>
+$ git rebase master
+</pre>
+</div>
+
+- interactive commit
+    - just like `add -p` followed by commit
+<div class="handout">
+Make some local modifications, then
+<pre>
+$ git commit --interactive
+</pre>
+</div>
+
+# Get Clever (2/3)
+
+- `git reflog`
+    - recover lost commits
+<div class="handout">
+<pre>
+# make changes
+$ git commit -m 'first'
+# make more changes
+$ git commit -m 'second'
+# whoops! blow away 'second'
+$ git reset --hard HEAD^
+# hooray, git still has it
+$ git reflog
+$ git reset --hard HEAD@{1}
+</pre>
+<p>Note that <code>git merge HEAD@{1}</code> also works. Good luck with that one.</p>
+<p>Further reading:
+<ol>
+  <li><a href="http://gitready.com/intermediate/2009/02/09/reflog-your-safety-net.html">http://gitready.com/intermediate/2009/02/09/reflog-your-safety-net.html</a></li>
+  <li><a href="http://gitready.com/advanced/2009/01/17/restoring-lost-commits.html">http://gitready.com/advanced/2009/01/17/restoring-lost-commits.html</a></li>
+</p>
+</div>
+
+- `git stash`
+  - like a cheapy cheap branch
+<div class="handout">
+Make some local modifications, then
+<pre>
+$ git stash
+# or
+$ git stash save 'WIP almost cracked SHA-512'
+$ git stash list
+$ git stash show -p
+$ git stash pop
+# or
+$ git stash drop
+</pre>
+</div>
+
+# Get Clever (3/3)
+
+- `git grep`
+    - can grep working tree or other treeishs
+
+- `git show`
+    - See content from history or other branches
+
+# Get Old School (1/2)
+
+- Creating patches by hand
     - format-patch
-    - git diff
-    - git send-email
-    - git request-pull
+    - `git diff`
+    - `git send-email`
+    - `git request-pull`
 <div class="handout">
 <p>Here we will do some of the same things that we did with github, only we
 will do them manually to show a bit more of what's going on, and to give you
@@ -245,16 +375,13 @@ $ git request-pull origin/master jlk ansible
 </pre>
 </div>
 
-# Get along with other people (3/3)
-
-<!-- Jesse -->
+# Get Old School (2/2)
 
 - Applying patches
-    - git apply
-    - git am
+    - `git apply`
+    - `git am`
     - signed-off-by
     - format-patch / am is better because context
-
 <div class="handout">
 <p>Here is how we can process the patch set. This is also what GitHub is
 doing, and again we'll see the details of what happens.</p>
@@ -264,97 +391,7 @@ doing, and again we'll see the details of what happens.</p>
 <p>format-patch is better as it includes more context than pure diff</p>
 </div>
 
-<!-- Adam -->
-
-- Cherry picking
-    - diff-and-apply from anywhere to anywhere
-    - consider `-x`, as in `git cherry-pick -x COMMIT`
-<div class="handout">
-<ol>
-    <li>commit something to a branch<li>
-    <li>cherry-pick it onto another branch<li>
-</ol>
-</div>
-
-- Conflict resolution
-    - software (including git) doesn't help much
-    - great communication does!
-
-# Get Clever (1/3)
-
-<!-- Adam -->
-
-- git blame
-<div class="handout">
-<pre>
-$ git blame
-</pre>
-</div>
-
-- git stash
-<div class="handout">
-Make some local modifications, then
-<pre>
-$ git stash
-# or
-$ git stash save 'WIP almost cracked SHA-512'
-$ git stash list
-$ git stash show -p
-$ git stash pop
-# or
-$ git stash drop
-</pre>
-</div>
-
-- interactive commit
-    - just like `add -p` followed by commit
-<div class="handout">
-Make some local modifications, then
-<pre>
-$ git commit --interactive
-</pre>
-</div>
-
-<!-- Jesse -->
-
-- rebase
-    - interactive
-    - rebase to a branch
-    - pull --rebase
-    - odd name, very useful and easy
-<div class="handout">
-<ol>
-  <li>Make a series of commits on a branch, some fixups, etc..<li>
-  <li>Make more nonconflicting changes on master<li>
-</ol>
-<pre>
-$ git rebase -i HEAD^^^
-</pre>
-<pre>
-$ git rebase master
-</pre>
-</div>
-
-# Get Clever (2/3)
-
-<!-- Jesse -->
-
-- git grep
-    - can grep working tree or other treeishs
-
-- git show
-    - See content from history or other branches
-
-# Get Clever (3/3)
-
-<!-- Adam -->
-
-- bisect ([demo repo](https://github.com/meonkeys/secret-octo-ironman))
-    - binary search for commit introducing bug
-
 # Further reading
-
-<!-- Adam -->
 
 - Read [Pro Git](http://progit.org)!
 - Now. Do it now.
@@ -365,9 +402,9 @@ $ git rebase master
 - [git reference manual](http://schacon.github.com/git/git.html) (man pages)
 - [git-enhanced shell prompt and tab-completion](http://git-scm.com/book/en/Git-Basics-Tips-and-Tricks#Auto-Completion)
     - invaluable info included in prompt
-- use [snerk-util git scripts](https://github.com/meonkeys/snerk-util/tree/master/git) for operating on many git repositories at once
+- use [snerk-util git scripts](https://github.com/meonkeys/snerk-util/tree/master/git) for operating on many Git repositories at once
     - also consider submodules
-- [Adam's git config](https://github.com/meonkeys/dotfiles)
+- [Adam's Git config](https://github.com/meonkeys/dotfiles)
 - [Interactive revert](http://stackoverflow.com/a/2383361/156060)
 - [hand-edited commits](http://stackoverflow.com/a/2333917/156060)
 
