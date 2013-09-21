@@ -211,8 +211,8 @@ doing, and again we'll see the details of what happens.</p>
 
 # Further reading
 
-- Read [Pro Git](http://progit.org)!
-- Now. Do it now.
+- Fork this talk: <https://github.com/meonkeys/git-talk>
+- Read [Pro Git](http://progit.org)! Now. Do it now.
 
 <span style="float:right"><a href="http://progit.org"><img src="http://progit.org/images/book-big.jpg" /></a></span>
 
