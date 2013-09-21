@@ -86,6 +86,9 @@ description/body, code reviews. It may be possible to export this.</p>
 
 # Get Clever (1/3)
 
+<!-- TODO: add "why rebase?" w/pics of git history w/trivial merges and another
+without trivial merges -->
+
 - We've spent weeks on this change
 - Meanwhile, upstream has changed!
 - time to `git rebase`
