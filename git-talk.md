@@ -90,13 +90,13 @@ description/body, code reviews. It may be possible to export this.</p>
 without trivial merges -->
 
 - We've spent weeks on this change. Meanwhile, upstream has marched on!
-- time to integrate: `git merge` or `git rebase`
-- let's rebase
-    - matter of preference
-    - never rebase a shared branch!
-- rebase semantics
-    - interactive
-    - pull --rebase
+- time to integrate _locally_: `git merge` or `git rebase`
+    - either works: it's a [matter of preference](http://arjanvandergaag.nl/blog/clarify-git-history-with-merge-commits.html)
+    - let's rebase (TODO: show merge bubble)
+- practical rebasing
+    - `git rebase --interactive`
+    - `git pull --rebase`
+    - `git config branch.autosetupmerge always`
 <div class="handout">
 <ol>
   <li>Make a series of commits on a branch, some fixups, etc..<li>
@@ -110,6 +110,10 @@ $ git rebase master
 </pre>
 </div>
 
+- never rebase a shared branch!
+
+# Get Clever (2/3)
+
 - interactive commit
     - just like `add -p` followed by commit
 <div class="handout">
@@ -118,8 +122,6 @@ Make some local modifications, then
 $ git commit --interactive
 </pre>
 </div>
-
-# Get Clever (2/3)
 
 - `git reflog`
     - recover lost commits
