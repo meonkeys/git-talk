@@ -90,11 +90,13 @@ description/body, code reviews. It may be possible to export this.</p>
 without trivial merges -->
 
 - We've spent weeks on this change. Meanwhile, upstream has marched on!
-- time to `git rebase`
+- time to integrate: `git merge` or `git rebase`
+- let's rebase
+    - matter of preference
+    - never rebase a shared branch!
+- rebase semantics
     - interactive
-    - rebase to a branch
     - pull --rebase
-    - odd name, very useful and easy
 <div class="handout">
 <ol>
   <li>Make a series of commits on a branch, some fixups, etc..<li>
