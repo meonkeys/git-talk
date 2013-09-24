@@ -7,6 +7,11 @@
 <!--
 Conference: SeaGL 2013
 Target audience: Git intermediate users
+
+S5 keyboard controls quick reference:
+* Jump directly to slide: Type slide number, then hit Return or Enter
+* Switch between slideshow and outline view: t
+(more at http://meyerweb.com/eric/tools/s5/features.html)
 -->
 
 <!-- Adam -->
