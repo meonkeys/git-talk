@@ -80,8 +80,8 @@ description/body, code reviews. It may be possible to export this.</p>
     - consider `-x`, as in `git cherry-pick -x COMMIT`
 <div class="handout">
 <ol>
-    <li>commit something to a branch<li>
-    <li>cherry-pick it onto another branch<li>
+    <li>commit something to a branch</li>
+    <li>cherry-pick it onto another branch</li>
 </ol>
 </div>
 
@@ -110,8 +110,8 @@ description/body, code reviews. It may be possible to export this.</p>
     - `git config branch.autosetupmerge always`
 <div class="handout">
 <ol>
-  <li>Make a series of commits on a branch, some fixups, etc..<li>
-  <li>Make more nonconflicting changes on master<li>
+  <li>Make a series of commits on a branch, some fixups, etc..</li>
+  <li>Make more nonconflicting changes on master</li>
 </ol>
 <pre>
 $ git rebase -i HEAD^^^
