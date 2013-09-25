@@ -91,13 +91,19 @@ description/body, code reviews. It may be possible to export this.</p>
 
 # Get Clever (1/3)
 
-<!-- TODO: add "why rebase?" w/pics of git history w/trivial merges and another
-without trivial merges -->
-
 - We've spent weeks on this change. Meanwhile, upstream has marched on!
 - time to integrate _locally_: `git merge` or `git rebase`
     - either works: it's a [matter of preference](http://arjanvandergaag.nl/blog/clarify-git-history-with-merge-commits.html)
-    - let's rebase (TODO: show merge bubble)
+    - let's rebase
+
+# Aside: rebase vs. merge
+
+<div style="width:40%; float:left; border: 1px solid; box-shadow: 10px 10px 5px #888888"><a href="https://github.com/meonkeys/merge-bubbles"><img src="img/merge-bubbles.png" /></a></div>
+<div style="width:50%; float:right; border: 1px solid; box-shadow: 10px 10px 5px #888888"><a href="https://github.com/meonkeys/using-rebase"><img src="img/using-rebase.png" /></a></div>
+<div style="clear: both"/>
+
+# Get Clever (1.5/3)
+
 - practical rebasing
     - `git rebase --interactive`
     - `git pull --rebase`
