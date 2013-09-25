@@ -98,8 +98,8 @@ description/body, code reviews. It may be possible to export this.</p>
 
 # Aside: rebase vs. merge
 
-<div style="width:40%; float:left; border: 1px solid; box-shadow: 10px 10px 5px #888888"><a href="https://github.com/meonkeys/merge-bubbles"><img src="img/merge-bubbles.png" /></a></div>
-<div style="width:50%; float:right; border: 1px solid; box-shadow: 10px 10px 5px #888888"><a href="https://github.com/meonkeys/using-rebase"><img src="img/using-rebase.png" /></a></div>
+<div style="float:left; border: 1px solid; box-shadow: 10px 10px 5px #888888"><a href="https://github.com/meonkeys/merge-bubbles"><img src="img/merge-bubbles.png" style="zoom: 150%" /></a></div>
+<div style="float:right; border: 1px solid; box-shadow: 10px 10px 5px #888888"><a href="https://github.com/meonkeys/using-rebase"><img src="img/using-rebase.png" style="zoom: 150%" /></a></div>
 <div style="clear: both"/>
 
 # Get Clever (1.5/3)
