@@ -30,11 +30,13 @@ S5 keyboard controls quick reference:
 - Something's broken. Grab your Sherlock hat and pipe.
 - `git bisect` ([demo repo](https://github.com/meonkeys/secret-octo-ironman))
     - binary search for commit introducing bug
-- `git blame`
+- other helpful tools
+  - `git blame`
+  - continuous integration
 <div class="handout">
-<pre>
-$ git blame
-</pre>
+<ol>
+  <li>use blame to see who changed the offending line, and when</li>
+  <li>CI would have found the bug right after it was committed</li>
 </div>
 
 # Collaboratification
