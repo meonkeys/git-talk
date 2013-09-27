@@ -87,7 +87,7 @@ description/body, code reviews. It may be possible to export this.</p>
 </ol>
 </div>
 
-- Conflict resolution
+- Merging, conflict resolution
     - software (including Git) doesn't help much
     - great communication does!
 
