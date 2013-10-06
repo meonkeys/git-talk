@@ -35,7 +35,8 @@ S5 keyboard controls quick reference:
   - continuous integration
 <div class="handout">
 <ol>
-  <li>use blame to see who changed the offending line, and when</li>
+  <li>this bug is easy to fix, but hard to find when it entered the code</li>
+  <li>could use blame to see who changed the offending line, and when</li>
   <li>CI would have found the bug right after it was committed</li>
 </div>
 
