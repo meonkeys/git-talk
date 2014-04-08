@@ -2,7 +2,7 @@
 
 Git talk by [Jesse Keating](http://raxcloud.blogspot.com/) and [Adam Monsen](http://adammonsen.com/).
 
-To be [presented at SeaGL 2013](http://lanyrd.com/2013/seagl/scpfdh/). Come check it out!
+[Presented at SeaGL 2013](http://lanyrd.com/2013/seagl/scpfdh/) ([video](http://youtu.be/OHT3ocyy2gs)). Come check it out!
 
 [Generated Slideshow](http://meonkeys.github.io/git-talk/).
 
